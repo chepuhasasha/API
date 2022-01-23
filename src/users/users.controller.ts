@@ -17,6 +17,6 @@ export class UserController extends BaseController {
   }
 
   register(req: Request, res: Response, next: NextFunction) {
-    this.ok(res, "login");
+    this.ok(res, "register");
   }
 }
