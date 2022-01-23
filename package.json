@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API template",
+  "main": "./dist/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashachepuha/API.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Sergey Batukov <sashachepuha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashachepuha/API/issues"
+  },
+  "homepage": "https://github.com/sashachepuha/API#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "tslog": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "github:types/express"
+  }
+}
