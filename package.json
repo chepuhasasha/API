@@ -24,6 +24,8 @@
   "homepage": "https://github.com/sashachepuha/API#readme",
   "dependencies": {
     "express": "^4.17.2",
+    "inversify": "^6.0.1",
+    "reflect-metadata": "^0.1.13",
     "tslog": "^3.3.1"
   },
   "devDependencies": {
